@@ -2,13 +2,13 @@ import ssl
 import time
 import paho.mqtt.client as mqtt
 
-HOST = "0caac27879564822a33b169380449b6e.s1.eu.hivemq.cloud"
+HOST = ""
 PORT = 8883
 
-USER = "deleted later"
-PASSWORD = "deleted later"
+USER = ""
+PASSWORD = ""
 
-TOPIC = "Commpound Parking"
+TOPIC = ""
 
 mqtt_client = mqtt.Client(callback_api_version=mqtt.CallbackAPIVersion.VERSION1)
 mqtt_client.username_pw_set(USER, PASSWORD)
